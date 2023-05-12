@@ -53,5 +53,22 @@
 
     $boolean = 10;
     var_dump(is_int($boolean)); // Hasilnya akan true karena 10 merupakan integer
+    echo "<br>";
+    var_dump(is_string($boolean)); // Hasilnya akan false karena 10 bukan merupakan string
+
+    echo "<br>";
+    echo "<br>";
+
+    // Array
+    // Array merupakan tipe data yang bisa menampung banyak data
+    // Array bisa menampung data dengan tipe data yang berbeda
+    // Penulisan array ada 2 yaitu array() dan []
+
+    $array = array("jeruk", "apel", "mangga");
+    $array2 = ["jeruk", "apel", "mangga"];
+
+    var_dump($array);
+    echo "<br>";
+    var_dump($array2);
 
 ?>
