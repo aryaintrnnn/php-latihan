@@ -37,5 +37,30 @@
 
     Globalvar(); // Memanggil fungsi/function
 
+    // Contoh lain memanggil global variable dalam funtion
+    $phi = 3.14;
+
+    function klllingkaran(){
+        global $phi;
+        $r = 10;
+        $kll = 2 * $phi * $r;
+        echo $kll;
+    }
+
+    function klllingkaran2(){
+        global $phi;
+        $r = 15;
+        $kll = 2 * $phi * $r;
+        echo $kll;
+    }
+
+    echo '<br>';
+    echo '<br>';
+    echo 'Keliling lingkaran 1 adalah: ';
+    klllingkaran();
+    echo '<br>';
+    echo 'Keliling lingkaran 2 adalah: ';
+    klllingkaran2();
+
 ?>
 
