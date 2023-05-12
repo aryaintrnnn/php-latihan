@@ -71,4 +71,14 @@
     echo "<br>";
     var_dump($array2);
 
+    echo "<br>";
+    echo "<br>";
+
+    // NULL
+    // NULL merupakan tipe data yang tidak memiliki nilai
+
+    $null = null;
+    
+    var_dump($null);
+
 ?>
