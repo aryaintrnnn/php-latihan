@@ -37,9 +37,10 @@
     // Float
     // Float merupakan angka desimal(menggunakan koma)
     // Float tidak perlu menggunakan tanda petik
+    // Float bisa menggunakan tanda + atau - di depan angka
 
     $float = 10.5;
     var_dump($float);
 
-    
+
 ?>
