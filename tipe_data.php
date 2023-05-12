@@ -42,5 +42,16 @@
     $float = 10.5;
     var_dump($float);
 
+    echo "<br>";
+    echo "<br>";
+
+    // Boolean
+    // Boolean merupakan tipe data yang hanya memiliki 2 nilai yaitu true dan false
+    // Boolean tidak perlu menggunakan tanda petik
+    // Pada umumnya di gunakan untuk kebutuhan conditional
+    // Merupakan hasil dari sebuah proses
+
+    $boolean = 10;
+    var_dump(is_int($boolean)); // Hasilnya akan true karena 10 merupakan integer
 
 ?>
