@@ -27,7 +27,15 @@
     
     Panggil(); // Memanggil fungsi/function
 
+    function Globalvar(){
+        global $panjang, $lebar; // Memanggil variabel global
 
+        echo 'Panjangnya adalah :'  .$panjang;
+        echo '<br>';
+        echo 'Lebarnya adalah :'  .$lebar;
+    }
+
+    Globalvar(); // Memanggil fungsi/function
 
 ?>
 
