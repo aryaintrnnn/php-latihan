@@ -31,5 +31,15 @@
     $angka = 10;
     var_dump($angka);
 
+    echo "<br>";
+    echo "<br>";
 
+    // Float
+    // Float merupakan angka desimal(menggunakan koma)
+    // Float tidak perlu menggunakan tanda petik
+
+    $float = 10.5;
+    var_dump($float);
+
+    
 ?>
