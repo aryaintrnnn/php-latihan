@@ -21,10 +21,15 @@
     var_dump('Saya punya $hewan'); //Variable tidak akan dibaca sebagai kucing melainkan $hewan
 
     echo "<br>";
+    echo "<br>";
 
     // Integer
+    // Integer merupakan angka bulat(tidak menggunakan koma)
+    // Integer tidak perlu menggunakan tanda petik
+    // Integer bisa menggunakan tanda + atau - di depan angka
 
-    
+    $angka = 10;
+    var_dump($angka);
 
 
 ?>
