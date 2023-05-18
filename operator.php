@@ -85,8 +85,40 @@
     echo $a--;
     echo '<br>';
     echo $a;
+    echo '<br>';
+    echo '<br>';
     
     // Logical Operator
+    // && (and), || (or), ! (not)
 
-    
+    $l = 4;
+    $m = 3;
+
+    // && (and) kedua kondisi harus sama
+    var_dump($l > 1 && $m > 1); // True
+    echo '<br>';
+    var_dump($l > 1 && $m > 10); // False
+    echo '<br>';
+    echo '<br>';
+
+    // || (or) kedua kondisi tidak harus sama
+    var_dump($l > 1 || $m > 1); // True
+    echo '<br>';
+    var_dump($l > 1 || $m > 10); // True
+    echo '<br>';
+    echo '<br>';
+
+    // xor, hanya 1 yang benar
+    var_dump($l > 1 xor $m > 1); // false
+    echo '<br>';
+    var_dump($l > 1 xor $m > 10); // True
+    echo '<br>';
+    echo '<br>';
+
+    // ! (not)
+    var_dump($l > 1 != $m > 1); // false
+    echo '<br>';
+    var_dump($l > 1 != $m > 10); // True
+
+    // String Operator
 ?>
