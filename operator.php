@@ -29,6 +29,25 @@
 
     // Comparison Operator
 
-    
+    $h = 5;
+    $i = 5;
+    $j = 10;
+    $k = "10";
+
+    var_dump($i == $j); // Sama dengan
+    echo '<br>';
+    var_dump($h==$i);
+    echo '<br>';
+    echo '<br>';
+    var_dump($a != $b); // Tidak sama dengan
+    echo '<br>';
+    var_dump($h!=$i);
+    echo '<br>';
+    echo '<br>';
+    var_dump($h === $i); // Identik
+    echo '<br>';
+    var_dump($j === $k); // Identik
+    echo '<br>';
+    echo '<br>';
 
 ?>
