@@ -50,4 +50,43 @@
     echo '<br>';
     echo '<br>';
 
+    // Increment/Decrement Operator
+    // ++$a = + 1 + $a
+    // $a++ = $a + 1
+    // --$a = - 1 - $a
+    // $a-- = $a - 1
+
+    echo "Pre-Increment";
+    echo '<br>';
+    echo ++$a;
+    echo '<br>';
+    echo $a;
+    echo '<br>';
+    echo '<br>';
+
+    echo "Post-Increment";
+    echo '<br>';
+    echo $a++;
+    echo '<br>';
+    echo $a;
+    echo '<br>';
+    echo '<br>';
+
+    echo "Pre-Decrement";
+    echo '<br>';
+    echo --$a;
+    echo '<br>';
+    echo $a;
+    echo '<br>';
+    echo '<br>';
+
+    echo "Post-Decrement";
+    echo '<br>';
+    echo $a--;
+    echo '<br>';
+    echo $a;
+    
+    // Logical Operator
+
+    
 ?>
