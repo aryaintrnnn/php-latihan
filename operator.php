@@ -119,6 +119,15 @@
     var_dump($l > 1 != $m > 1); // false
     echo '<br>';
     var_dump($l > 1 != $m > 10); // True
+    echo '<br>';
+    echo '<br>';
 
     // String Operator
+
+    $hello = "hello";
+    $world = " world";
+
+    echo $hello.$world; // Penggabungan 1 string dengan yang lainnya
+    echo '<br>';
+    echo '<br>';
 ?>
